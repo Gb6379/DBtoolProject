@@ -1,0 +1,9 @@
+.idea/
+node_modules
+src/**/*.js
+src/**/*.js.map
+.env
+modules/
+dist/
+errors.txt
+sqls/

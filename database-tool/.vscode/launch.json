@@ -1,0 +1,16 @@
+{
+  "name": "Test",
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to node",
+      "type": "node",
+      "request": "attach",
+      "remoteRoot": "/usr/src/app",
+      "restart": true,
+      "address": "localhost",
+      "port": 9228,
+      "sourceMaps": true
+    },
+  ]
+}

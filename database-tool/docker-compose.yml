@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  sql-test:
+    build:
+      context: .
+      target: development
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/app
+    env_file:
+      - .env
+    ports:
+      - "3001:3001"
+      - "9228:9229"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    # command: npm run start:debug
+    command: npm run start:dev
