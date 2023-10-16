@@ -9,7 +9,7 @@ Ferramente desenvolvida visando a automatizacao para geracao de dlls de bando, q
 
 2 - ter sql server instalado
 
-3 - abrir o arquivo .env e setar as credencias do banco
+3 - abrir o arquivo .env.example e criar um arquivo ".env" com as variaveis e setar suas credencias de banco no "Credencias banco 2"
 
 4 - ter uma banco sql server populado
 
